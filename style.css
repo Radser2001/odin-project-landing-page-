@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lato:wght@300&family=Manrope:wght@400;700&family=Montserrat:wght@400;700&family=Red+Hat+Display:wght@500;700;900&family=Roboto:ital,wght@0,400;0,500;0,700;1,300&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+nav {
+  padding-right: 10rem;
+  padding-left: 10rem;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.logo {
+  color: #fff;
+}
+
+.pages {
+  margin-left: auto;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  padding: 1rem;
+
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.details {
+  padding-right: 10rem;
+  padding-left: 10rem;
+  padding-bottom: 2rem;
+  display: flex;
+  margin-top: 2rem;
+  justify-content: space-between;
+  align-items: center;
+
+  line-height: 2;
+}
+
+.description h1 {
+  font-weight: 700;
+  font-size: 48px;
+  color: #fff;
+}
+
+.description p {
+  color: #e5e7eb;
+}
+
+.btn {
+  background-color: #3882f6;
+  color: white;
+  width: 100px;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.image img {
+  width: 300px;
+  height: 300px;
+  padding-right: 1rem;
+  padding-left: 0.5rem;
+}
+
+.main {
+  background-color: #1f2937;
+}
+
+.images img {
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: auto;
+}
+
+.info {
+  padding-right: 10rem;
+  padding-left: 10rem;
+}
+
+.info h1 {
+  text-align: center;
+  padding-top: 2rem;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.images {
+  padding-top: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.images p {
+  text-align: center;
+  padding-left: 10px;
+}
+
+.quote {
+  margin-top: 3rem;
+  padding: 3rem 10rem 3rem 10rem;
+  background-color: #e5e7eb;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.name {
+  padding-top: 1rem;
+  text-align: right;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.sign-up {
+  margin-right: 10rem;
+  margin-left: 10rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  padding: 4rem 1rem 4rem 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #3882f6;
+  color: white;
+  border-radius: 15px;
+}
+
+.btn-2 {
+  margin: 2rem;
+  border: solid 1px #fff;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.btn,
+.btn-2 {
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  background-color: #1f2937;
+  color: white;
+  padding: 2rem 0 2rem 0;
+}
+
+@media screen and (max-width: 1090px) {
+  nav,
+  .details,
+  .info,
+  .quote {
+    padding: 2rem;
+  }
+
+  .sign-up {
+    margin: 2rem;
+    padding: 1rem;
+  }
+
+  .images,
+  .details,
+  .sign-up {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sign-up h1 {
+    font-size: 30px;
+  }
+
+  .images img {
+    padding: 1rem;
+  }
+
+  .description h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .details {
+    align-items: center;
+  }
+
+  .btn {
+    align-self: center;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .btn {
+    width: 90%;
+    border-radius: 5px;
+  }
+}
